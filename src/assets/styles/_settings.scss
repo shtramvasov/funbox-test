@@ -1,0 +1,23 @@
+// Global Settings
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-image: url('../images/pattern.png');
+}
+
+// Misc
+.transition {
+	transition: ease-in-out 250ms;
+}

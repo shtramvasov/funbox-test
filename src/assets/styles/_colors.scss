@@ -1,0 +1,52 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$gray: #666666;
+$gray-darken-1: #b3b3b3;
+$blue: #1698d9;
+$red: #d91667;
+$lemon: #ffff66;
+
+// Color Classes
+.black {
+	background-color: $black;
+	&--text {
+		color: $black;
+	}
+}
+.white {
+	background-color: $white;
+	&--text {
+		color: $white;
+	}
+}
+.gray {
+	background-color: $gray;
+	&--text {
+		color: $gray;
+	}
+	&__darken-1 {
+		background-color: $gray-darken-1;
+		&--text {
+			color: $gray-darken-1;
+		}
+	}
+}
+.blue {
+	background-color: $blue;
+	&--text {
+		color: $blue;
+	}
+}
+.red {
+	background-color: $red;
+	&--text {
+		color: $red;
+	}
+}
+.lemon {
+	background-color: $lemon;
+	&--text {
+		color: $lemon;
+	}
+}

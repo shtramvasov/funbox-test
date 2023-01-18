@@ -1,0 +1,109 @@
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.center-self {
+	align-self: center;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.p-1 {
+	padding: 1rem;
+}
+.p-2 {
+	padding: 2rem;
+}
+.p-3 {
+	padding: 3rem;
+}
+.m-1 {
+	margin: 1rem;
+}
+.m-2 {
+	margin: 2rem;
+}
+.m-3 {
+	margin: 3rem;
+}
+
+.pb-1 {
+	padding-bottom: 1rem;
+}
+
+.pb-2 {
+	padding-bottom: 2rem;
+}
+
+.pb-3 {
+	padding-bottom: 3rem;
+}
+
+.mb-1 {
+	margin-bottom: 1rem;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+.gap-1-5 {
+	gap: 1.5rem;
+}
+.gap-2 {
+	gap: 2rem;
+}
+.gap-3 {
+	gap: 3rem;
+}
+.gap-4 {
+	gap: 4rem;
+}
+
+.round {
+	border-radius: 50%;
+}
+
+img,
+svg {
+	max-width: fit-content;
+	width: 100%;
+	height: auto;
+}
+
+.app-wrapper {
+	min-height: 100vh;
+}
+
+@media (max-width: $lg) {
+	.app-wrapper {
+    padding: 3rem;
+	}
+}
+
+@media (max-width: $md) {
+	.app-wrapper {
+    padding: 1.5rem;
+	}
+}
